@@ -1,14 +1,14 @@
 import * as React from 'react';
-import { Navbar1 } from './components';
+import { Navbar } from './components';
 import { Outlet } from 'react-router-dom';
 
 
 function App() {
   return (
     <React.Fragment>
-      <Navbar1>
+      <Navbar>
         <Outlet />
-      </Navbar1>
+      </Navbar>
     </React.Fragment>
   )
 }

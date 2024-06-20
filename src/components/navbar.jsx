@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 
 const pages = ['Get Started', 'Navbars', 'Menus', 'Footers', 'Buttons', 'Forms', 'Cards'];
 
-function Navbar1() {
+export default function Navbar() {
     return (
         <div position ="fixed" sx={{
             maxheight: '80px',
@@ -22,5 +22,3 @@ function Navbar1() {
         </div>
     )
 }
-
-export default Navbar1;
