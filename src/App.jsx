@@ -1,12 +1,15 @@
-import { useState } from 'react'
+import * as React from 'react';
+import { Navbar1 } from './components';
+import { Outlet } from 'react-router-dom';
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      
-    </>
+    <React.Fragment>
+      <Navbar1>
+        <Outlet />
+      </Navbar1>
+    </React.Fragment>
   )
 }
 
